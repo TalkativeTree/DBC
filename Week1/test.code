@@ -1,0 +1,1 @@
+"hello".rjust(20)
