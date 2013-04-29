@@ -12,7 +12,7 @@ puts chessboard[0][0][0]
 #                  ["B Pawn", "B Pawn", "B Pawn", "B Pawn", "B Pawn", "B Pawn", "B Pawn", "B Pawn"],
 #                  ["B Rook", "B Knight", "B Bishop", "B Queen", "B Knight", "B Bishop", "B Knight", "B Rook"]]
 
-#  chessborad = chessboard.transpose # I really don't get why the arrays are organized with the rows as columns :/
+#  chessborad = chessboard.transpose 
 # # Example usage:
 # puts chessboard.transpose[7][0] == "W Rook"    # outputs true
 
