@@ -1,0 +1,60 @@
+Sudokode
+
+Outline
+1. find an incomplete sudoku puzzle
+2. For each empty square in the puzzle
+  A. Define the possibilities of what could go in the square
+  B. Check the row that contains the empty square
+    1) check off the numbers in it's row
+  B. check the columns that his the empty square
+    2) check off the numbers that in it's column
+  C. Check the square's box
+    1) check off the numbers in the squares box
+  D) if there one number left that is not checked off, put it in the square
+            E) if there are two possibilities, put them in the square
+3. If there are still any empty squares, repeat step 2
+
+
+Pseudocode
+
+
+define a class for SudokuPuzzle
+define a sudoku puzzles attributes: board, squares, known/unknown numbers, setter/player?
+                                    set of box centers, set of possible answers
+                                    create an empty array called found numbers
+
+
+Define a method that returns the values in a squares row
+Define a method that returns the values in a squares column
+Define which reutnrs the values in box containing a square
+
+def check_all
+  combines the results of check row, checks colum, checks box.
+end
+
+
+define a method to see if we can solve the square
+  take in an array of numbers 1-9
+  return uniq numbers from given numbers + possibilities 
+  if possibilities = given numbers, return
+end
+
+
+search through the known/unkown numbers until you come to a 0
+  when you find a 0
+    push check all into found numbers
+    check the list of found numbers against possibilites with solve the square
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
